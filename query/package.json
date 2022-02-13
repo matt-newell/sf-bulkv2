@@ -1,0 +1,20 @@
+{
+    "name": "sfdc-bulk",
+    "version": "1.0.0",
+    "description": "Bulk v2 > sfdc",
+    "main": "index.js",
+    "bin": {
+      "sfdc-bulk": "./index.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Matt Newell",
+    "license": "ISC",
+    "dependencies": {
+      "fs": "0.0.1-security",
+      "jsforce": "^1.11.0",
+      "node-sf-bulk2": "0.0.23",
+      "util": "^0.12.4"
+    }
+  }
